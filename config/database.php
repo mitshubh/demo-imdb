@@ -17,40 +17,8 @@ class DBConn {
 	}
 
 	public function closeDBConn() {
-		//($this->db)->close;
+		$this->db->close();
 	}
-
-	/*public function select($query) {
-		if (!($rs = $db->query($query))) {
-			$errMsg = $db->error;
-			print "Incorrect Query : $errMsg <br/>" ;
-		}
-		return $rs;
-	}
-
-	public function insert($query) {
-		if (!mysqli_query($con,$query)) {
-			echo("Error description: " . mysqli_error($con));
-			return false;
-		}
-		return true;
-	}
-
-	public function update($query) {
-		if (!mysqli_query($con,$query)) {
-			echo("Error description: " . mysqli_error($con));
-			return false;
-		}
-		return true;
-	}
-
-	public function delete($query) {	
-		if (!mysqli_query($con,$query)) {
-			echo("Error description: " . mysqli_error($con));
-			return false;
-		}
-		return true;	
-	}*/
 }
 
 ?>

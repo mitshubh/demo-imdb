@@ -12,13 +12,19 @@ div.fixed-nav-bar {
 	margin-bottom: 10px;
 }
 
+.textColor {
+  color:yellow;
+}
+
 .input-group-addon{
 	border-radius: 5px;
+  display: -webkit-box
 }
 
 .stylish-input-group .input-group-addon{
     background: white !important; 
     border-style: double;
+    width: 500px;
 }
 
 .stylish-input-group .form-control{
@@ -39,12 +45,24 @@ div.fixed-nav-bar {
 	width:1000px;
 	height: 400px;
 	background-color: #e2e2e2;
-    top:50%;
-  	left:50%;
-  	margin-top: 10px;
-	-ms-transform: translateX(-50%) translateY(-70%);
-    -webkit-transform: translate(-50%,-70%);
-    transform: translate(-50%,-70%);
+  top:50%;
+  left:50%;
+  margin-top: 10px;
+  -ms-transform: translateX(-50%) translateY(-70%);
+  -webkit-transform: translate(-50%,-70%);
+  transform: translate(-50%,-70%);
+  font-size: large;
+}
 
+.init {
+  font-size: 20px;
+}
 
+form.searchBar {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+
+input.searchBox {
+    width: 606px;
 }
