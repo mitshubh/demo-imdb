@@ -27,7 +27,7 @@ include_once "header.php";
         <input type="date" class="form-control" name="dob" required>
     </div>
     <div class="form-group">
-        <label for="dod">Date of Death:</label>
+        <label for="dod">Date of Death: (leave blank if alive)</label>
         <input type="date" class="form-control" name="dod">
     </div>
     <button type="submit" class="btn btn-default">Submit</button>
